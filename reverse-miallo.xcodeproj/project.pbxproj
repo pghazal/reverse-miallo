@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E70C39C1C56306900086FDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C39B1C56306900086FDC /* main.m */; };
+		3E70C39F1C56306900086FDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C39E1C56306900086FDC /* AppDelegate.m */; };
+		3E70C3A21C56306900086FDC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C3A11C56306900086FDC /* FirstViewController.m */; };
+		3E70C3A51C56306900086FDC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C3A41C56306900086FDC /* SecondViewController.m */; };
+		3E70C3A81C56306900086FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E70C3A61C56306900086FDC /* Main.storyboard */; };
+		3E70C3AA1C56306A00086FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E70C3A91C56306A00086FDC /* Assets.xcassets */; };
+		3E70C3AD1C56306A00086FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E70C3AB1C56306A00086FDC /* LaunchScreen.storyboard */; };
+		3E70C3B81C56306A00086FDC /* reverse_mialloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C3B71C56306A00086FDC /* reverse_mialloTests.m */; };
+		3E70C3C31C56306A00086FDC /* reverse_mialloUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C3C21C56306A00086FDC /* reverse_mialloUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E70C3B41C56306A00086FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E70C38F1C56306900086FDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E70C3961C56306900086FDC;
+			remoteInfo = "reverse-miallo";
+		};
+		3E70C3BF1C56306A00086FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E70C38F1C56306900086FDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E70C3961C56306900086FDC;
+			remoteInfo = "reverse-miallo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E70C3971C56306900086FDC /* reverse-miallo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reverse-miallo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E70C39B1C56306900086FDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E70C39D1C56306900086FDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E70C39E1C56306900086FDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E70C3A01C56306900086FDC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3E70C3A11C56306900086FDC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3E70C3A31C56306900086FDC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3E70C3A41C56306900086FDC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3E70C3A71C56306900086FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E70C3A91C56306A00086FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E70C3AC1C56306A00086FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E70C3AE1C56306A00086FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E70C3B31C56306A00086FDC /* reverse-mialloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reverse-mialloTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E70C3B71C56306A00086FDC /* reverse_mialloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reverse_mialloTests.m; sourceTree = "<group>"; };
+		3E70C3B91C56306A00086FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E70C3BE1C56306A00086FDC /* reverse-mialloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reverse-mialloUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E70C3C21C56306A00086FDC /* reverse_mialloUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reverse_mialloUITests.m; sourceTree = "<group>"; };
+		3E70C3C41C56306A00086FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E70C3941C56306900086FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E70C3B01C56306A00086FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E70C3BB1C56306A00086FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E70C38E1C56306900086FDC = {
+			isa = PBXGroup;
+			children = (
+				3E70C3991C56306900086FDC /* reverse-miallo */,
+				3E70C3B61C56306A00086FDC /* reverse-mialloTests */,
+				3E70C3C11C56306A00086FDC /* reverse-mialloUITests */,
+				3E70C3981C56306900086FDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E70C3981C56306900086FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E70C3971C56306900086FDC /* reverse-miallo.app */,
+				3E70C3B31C56306A00086FDC /* reverse-mialloTests.xctest */,
+				3E70C3BE1C56306A00086FDC /* reverse-mialloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E70C3991C56306900086FDC /* reverse-miallo */ = {
+			isa = PBXGroup;
+			children = (
+				3E70C39D1C56306900086FDC /* AppDelegate.h */,
+				3E70C39E1C56306900086FDC /* AppDelegate.m */,
+				3E70C3A01C56306900086FDC /* FirstViewController.h */,
+				3E70C3A11C56306900086FDC /* FirstViewController.m */,
+				3E70C3A31C56306900086FDC /* SecondViewController.h */,
+				3E70C3A41C56306900086FDC /* SecondViewController.m */,
+				3E70C3A61C56306900086FDC /* Main.storyboard */,
+				3E70C3A91C56306A00086FDC /* Assets.xcassets */,
+				3E70C3AB1C56306A00086FDC /* LaunchScreen.storyboard */,
+				3E70C3AE1C56306A00086FDC /* Info.plist */,
+				3E70C39A1C56306900086FDC /* Supporting Files */,
+			);
+			path = "reverse-miallo";
+			sourceTree = "<group>";
+		};
+		3E70C39A1C56306900086FDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E70C39B1C56306900086FDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E70C3B61C56306A00086FDC /* reverse-mialloTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E70C3B71C56306A00086FDC /* reverse_mialloTests.m */,
+				3E70C3B91C56306A00086FDC /* Info.plist */,
+			);
+			path = "reverse-mialloTests";
+			sourceTree = "<group>";
+		};
+		3E70C3C11C56306A00086FDC /* reverse-mialloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E70C3C21C56306A00086FDC /* reverse_mialloUITests.m */,
+				3E70C3C41C56306A00086FDC /* Info.plist */,
+			);
+			path = "reverse-mialloUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E70C3961C56306900086FDC /* reverse-miallo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E70C3C71C56306A00086FDC /* Build configuration list for PBXNativeTarget "reverse-miallo" */;
+			buildPhases = (
+				3E70C3931C56306900086FDC /* Sources */,
+				3E70C3941C56306900086FDC /* Frameworks */,
+				3E70C3951C56306900086FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "reverse-miallo";
+			productName = "reverse-miallo";
+			productReference = 3E70C3971C56306900086FDC /* reverse-miallo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E70C3B21C56306A00086FDC /* reverse-mialloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E70C3CA1C56306A00086FDC /* Build configuration list for PBXNativeTarget "reverse-mialloTests" */;
+			buildPhases = (
+				3E70C3AF1C56306A00086FDC /* Sources */,
+				3E70C3B01C56306A00086FDC /* Frameworks */,
+				3E70C3B11C56306A00086FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E70C3B51C56306A00086FDC /* PBXTargetDependency */,
+			);
+			name = "reverse-mialloTests";
+			productName = "reverse-mialloTests";
+			productReference = 3E70C3B31C56306A00086FDC /* reverse-mialloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E70C3BD1C56306A00086FDC /* reverse-mialloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E70C3CD1C56306A00086FDC /* Build configuration list for PBXNativeTarget "reverse-mialloUITests" */;
+			buildPhases = (
+				3E70C3BA1C56306A00086FDC /* Sources */,
+				3E70C3BB1C56306A00086FDC /* Frameworks */,
+				3E70C3BC1C56306A00086FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E70C3C01C56306A00086FDC /* PBXTargetDependency */,
+			);
+			name = "reverse-mialloUITests";
+			productName = "reverse-mialloUITests";
+			productReference = 3E70C3BE1C56306A00086FDC /* reverse-mialloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E70C38F1C56306900086FDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pierre Ghazal";
+				TargetAttributes = {
+					3E70C3961C56306900086FDC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3E70C3B21C56306A00086FDC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3E70C3961C56306900086FDC;
+					};
+					3E70C3BD1C56306A00086FDC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3E70C3961C56306900086FDC;
+					};
+				};
+			};
+			buildConfigurationList = 3E70C3921C56306900086FDC /* Build configuration list for PBXProject "reverse-miallo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E70C38E1C56306900086FDC;
+			productRefGroup = 3E70C3981C56306900086FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E70C3961C56306900086FDC /* reverse-miallo */,
+				3E70C3B21C56306A00086FDC /* reverse-mialloTests */,
+				3E70C3BD1C56306A00086FDC /* reverse-mialloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E70C3951C56306900086FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E70C3AD1C56306A00086FDC /* LaunchScreen.storyboard in Resources */,
+				3E70C3AA1C56306A00086FDC /* Assets.xcassets in Resources */,
+				3E70C3A81C56306900086FDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E70C3B11C56306A00086FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E70C3BC1C56306A00086FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E70C3931C56306900086FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E70C3A51C56306900086FDC /* SecondViewController.m in Sources */,
+				3E70C39F1C56306900086FDC /* AppDelegate.m in Sources */,
+				3E70C3A21C56306900086FDC /* FirstViewController.m in Sources */,
+				3E70C39C1C56306900086FDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E70C3AF1C56306A00086FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E70C3B81C56306A00086FDC /* reverse_mialloTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E70C3BA1C56306A00086FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E70C3C31C56306A00086FDC /* reverse_mialloUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E70C3B51C56306A00086FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E70C3961C56306900086FDC /* reverse-miallo */;
+			targetProxy = 3E70C3B41C56306A00086FDC /* PBXContainerItemProxy */;
+		};
+		3E70C3C01C56306A00086FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E70C3961C56306900086FDC /* reverse-miallo */;
+			targetProxy = 3E70C3BF1C56306A00086FDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E70C3A61C56306900086FDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E70C3A71C56306900086FDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E70C3AB1C56306A00086FDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E70C3AC1C56306A00086FDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E70C3C51C56306A00086FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E70C3C61C56306A00086FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E70C3C81C56306A00086FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "reverse-miallo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pierreghazal.reverse-miallo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E70C3C91C56306A00086FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "reverse-miallo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pierreghazal.reverse-miallo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E70C3CB1C56306A00086FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "reverse-mialloTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pierreghazal.reverse-mialloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reverse-miallo.app/reverse-miallo";
+			};
+			name = Debug;
+		};
+		3E70C3CC1C56306A00086FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "reverse-mialloTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pierreghazal.reverse-mialloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reverse-miallo.app/reverse-miallo";
+			};
+			name = Release;
+		};
+		3E70C3CE1C56306A00086FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "reverse-mialloUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pierreghazal.reverse-mialloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "reverse-miallo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3E70C3CF1C56306A00086FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "reverse-mialloUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pierreghazal.reverse-mialloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "reverse-miallo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E70C3921C56306900086FDC /* Build configuration list for PBXProject "reverse-miallo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E70C3C51C56306A00086FDC /* Debug */,
+				3E70C3C61C56306A00086FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E70C3C71C56306A00086FDC /* Build configuration list for PBXNativeTarget "reverse-miallo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E70C3C81C56306A00086FDC /* Debug */,
+				3E70C3C91C56306A00086FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E70C3CA1C56306A00086FDC /* Build configuration list for PBXNativeTarget "reverse-mialloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E70C3CB1C56306A00086FDC /* Debug */,
+				3E70C3CC1C56306A00086FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E70C3CD1C56306A00086FDC /* Build configuration list for PBXNativeTarget "reverse-mialloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E70C3CE1C56306A00086FDC /* Debug */,
+				3E70C3CF1C56306A00086FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E70C38F1C56306900086FDC /* Project object */;
+}
