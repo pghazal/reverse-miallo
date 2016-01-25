@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E669E4A1C56350B0020D9AD /* FriendTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E669E491C56350B0020D9AD /* FriendTableCell.m */; };
+		3E669E4E1C5667950020D9AD /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E669E4D1C5667950020D9AD /* Friend.m */; };
 		3E70C39C1C56306900086FDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C39B1C56306900086FDC /* main.m */; };
 		3E70C39F1C56306900086FDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C39E1C56306900086FDC /* AppDelegate.m */; };
-		3E70C3A21C56306900086FDC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C3A11C56306900086FDC /* FirstViewController.m */; };
-		3E70C3A51C56306900086FDC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C3A41C56306900086FDC /* SecondViewController.m */; };
+		3E70C3A21C56306900086FDC /* FriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C3A11C56306900086FDC /* FriendsTableViewController.m */; };
+		3E70C3A51C56306900086FDC /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C3A41C56306900086FDC /* SettingsViewController.m */; };
 		3E70C3A81C56306900086FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E70C3A61C56306900086FDC /* Main.storyboard */; };
 		3E70C3AA1C56306A00086FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E70C3A91C56306A00086FDC /* Assets.xcassets */; };
 		3E70C3AD1C56306A00086FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E70C3AB1C56306A00086FDC /* LaunchScreen.storyboard */; };
@@ -36,14 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E669E481C56350B0020D9AD /* FriendTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTableCell.h; sourceTree = "<group>"; };
+		3E669E491C56350B0020D9AD /* FriendTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTableCell.m; sourceTree = "<group>"; };
+		3E669E4C1C5667950020D9AD /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		3E669E4D1C5667950020D9AD /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
 		3E70C3971C56306900086FDC /* reverse-miallo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reverse-miallo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E70C39B1C56306900086FDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E70C39D1C56306900086FDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E70C39E1C56306900086FDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E70C3A01C56306900086FDC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		3E70C3A11C56306900086FDC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		3E70C3A31C56306900086FDC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		3E70C3A41C56306900086FDC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3E70C3A01C56306900086FDC /* FriendsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendsTableViewController.h; sourceTree = "<group>"; };
+		3E70C3A11C56306900086FDC /* FriendsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsTableViewController.m; sourceTree = "<group>"; };
+		3E70C3A31C56306900086FDC /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		3E70C3A41C56306900086FDC /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		3E70C3A71C56306900086FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E70C3A91C56306A00086FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E70C3AC1C56306A00086FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,6 +87,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E669E3F1C5633540020D9AD /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				3E669E481C56350B0020D9AD /* FriendTableCell.h */,
+				3E669E491C56350B0020D9AD /* FriendTableCell.m */,
+			);
+			name = TableCell;
+			sourceTree = "<group>";
+		};
+		3E669E401C56335C0020D9AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E70C3A01C56306900086FDC /* FriendsTableViewController.h */,
+				3E70C3A11C56306900086FDC /* FriendsTableViewController.m */,
+				3E70C3A31C56306900086FDC /* SettingsViewController.h */,
+				3E70C3A41C56306900086FDC /* SettingsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3E669E4B1C5665150020D9AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E669E4C1C5667950020D9AD /* Friend.h */,
+				3E669E4D1C5667950020D9AD /* Friend.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		3E70C38E1C56306900086FDC = {
 			isa = PBXGroup;
 			children = (
@@ -104,12 +139,11 @@
 		3E70C3991C56306900086FDC /* reverse-miallo */ = {
 			isa = PBXGroup;
 			children = (
+				3E669E4B1C5665150020D9AD /* Model */,
+				3E669E401C56335C0020D9AD /* Controller */,
+				3E669E3F1C5633540020D9AD /* TableCell */,
 				3E70C39D1C56306900086FDC /* AppDelegate.h */,
 				3E70C39E1C56306900086FDC /* AppDelegate.m */,
-				3E70C3A01C56306900086FDC /* FirstViewController.h */,
-				3E70C3A11C56306900086FDC /* FirstViewController.m */,
-				3E70C3A31C56306900086FDC /* SecondViewController.h */,
-				3E70C3A41C56306900086FDC /* SecondViewController.m */,
 				3E70C3A61C56306900086FDC /* Main.storyboard */,
 				3E70C3A91C56306A00086FDC /* Assets.xcassets */,
 				3E70C3AB1C56306A00086FDC /* LaunchScreen.storyboard */,
@@ -275,10 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E70C3A51C56306900086FDC /* SecondViewController.m in Sources */,
+				3E70C3A51C56306900086FDC /* SettingsViewController.m in Sources */,
 				3E70C39F1C56306900086FDC /* AppDelegate.m in Sources */,
-				3E70C3A21C56306900086FDC /* FirstViewController.m in Sources */,
+				3E70C3A21C56306900086FDC /* FriendsTableViewController.m in Sources */,
+				3E669E4E1C5667950020D9AD /* Friend.m in Sources */,
 				3E70C39C1C56306900086FDC /* main.m in Sources */,
+				3E669E4A1C56350B0020D9AD /* FriendTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +538,7 @@
 				3E70C3C91C56306A00086FDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E70C3CA1C56306A00086FDC /* Build configuration list for PBXNativeTarget "reverse-mialloTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +547,7 @@
 				3E70C3CC1C56306A00086FDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E70C3CD1C56306A00086FDC /* Build configuration list for PBXNativeTarget "reverse-mialloUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +556,7 @@
 				3E70C3CF1C56306A00086FDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

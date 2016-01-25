@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  SettingsViewController.h
 //  reverse-miallo
 //
 //  Created by macbookpro1 on 25/01/2016.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SettingsViewController : UITableViewController
 
 
 @end

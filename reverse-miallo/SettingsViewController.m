@@ -1,18 +1,18 @@
 //
-//  SecondViewController.m
+//  SettingsViewController.m
 //  reverse-miallo
 //
 //  Created by macbookpro1 on 25/01/2016.
 //  Copyright © 2016 Pierre Ghazal. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "SettingsViewController.h"
 
-@interface SecondViewController ()
+@interface SettingsViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation SettingsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
