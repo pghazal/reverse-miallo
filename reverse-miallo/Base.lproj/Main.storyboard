@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -11,14 +12,17 @@
             <objects>
                 <tableViewController id="eDm-8U-Get" customClass="SettingsViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="TLd-LC-KIp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
                             <tableViewSection headerTitle="General" id="s9X-kf-2IW">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="0sS-ym-uGz">
+                                        <rect key="frame" x="0.0" y="113.5" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0sS-ym-uGz" id="FVA-oO-89X">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -27,11 +31,14 @@
                             <tableViewSection headerTitle="Account" id="9mE-Ee-RnU">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="fYp-7Z-se3" style="IBUITableViewCellStyleDefault" id="jff-aM-056">
+                                        <rect key="frame" x="0.0" y="207.5" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jff-aM-056" id="Lo1-p4-etI">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Disconnect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fYp-7Z-se3">
+                                                    <rect key="frame" x="15" y="0.0" width="570" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -66,6 +73,7 @@
                         <viewControllerLayoutGuide type="bottom" id="1Na-AF-8Fu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ad8-1c-DZS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="0UR-3O-472">
@@ -125,9 +133,6 @@
                                 <exclude reference="gWk-SM-hap"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="9NC-4y-aF3"/>
-                                <exclude reference="EFs-mZ-Uc0"/>
-                                <exclude reference="ihk-sa-6sc"/>
                                 <exclude reference="6jH-co-biX"/>
                                 <exclude reference="BX2-Tb-E00"/>
                                 <exclude reference="CEk-6D-Nei"/>
@@ -137,6 +142,9 @@
                                 <exclude reference="ZXD-AS-RiQ"/>
                                 <exclude reference="6nJ-hg-n7l"/>
                                 <exclude reference="cMf-fm-R0l"/>
+                                <exclude reference="9NC-4y-aF3"/>
+                                <exclude reference="EFs-mZ-Uc0"/>
+                                <exclude reference="ihk-sa-6sc"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -147,9 +155,6 @@
                                 <include reference="gWk-SM-hap"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="9NC-4y-aF3"/>
-                                <include reference="EFs-mZ-Uc0"/>
-                                <include reference="ihk-sa-6sc"/>
                                 <include reference="6jH-co-biX"/>
                                 <include reference="BX2-Tb-E00"/>
                                 <include reference="CEk-6D-Nei"/>
@@ -159,6 +164,9 @@
                                 <include reference="ZXD-AS-RiQ"/>
                                 <include reference="6nJ-hg-n7l"/>
                                 <include reference="cMf-fm-R0l"/>
+                                <include reference="9NC-4y-aF3"/>
+                                <include reference="EFs-mZ-Uc0"/>
+                                <include reference="ihk-sa-6sc"/>
                             </mask>
                         </variation>
                     </view>
@@ -191,12 +199,15 @@
             <objects>
                 <tableViewController id="8Bl-jb-OLC" customClass="FriendsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" allowsMultipleSelection="YES" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="9eM-0Z-8Jv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendTableCell" id="SKz-Uy-QfV" customClass="FriendTableCell">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SKz-Uy-QfV" id="6F9-5K-Xf1">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wi7-8G-fcx">
@@ -259,6 +270,7 @@
                         <viewControllerLayoutGuide type="bottom" id="j2a-QB-MdU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ywd-gy-Zx2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="rZA-hP-OJZ">
@@ -322,6 +334,7 @@
                         <viewControllerLayoutGuide type="bottom" id="59R-WS-czX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="28O-5F-EXR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
