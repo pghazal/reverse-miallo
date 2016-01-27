@@ -37,6 +37,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    self.tabBarController.tabBar.hidden = NO;
+}
+
 #pragma mark - Table view
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -47,17 +51,14 @@
     static NSString *identifier = @"FriendTableCell";
     
     FriendTableCell *cell = (FriendTableCell *)[tableView dequeueReusableCellWithIdentifier:identifier];
-    if (cell == nil)
-    {
+    if (cell == nil) {
         cell = [[FriendTableCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     }
     
-    if ([friendsSelected containsObject:indexPath])
-    {
+    if ([friendsSelected containsObject:indexPath]) {
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
     }
-    else
-    {
+    else {
         cell.accessoryType = UITableViewCellAccessoryNone;
         
     }
@@ -73,12 +74,10 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    if ([friendsSelected containsObject:indexPath])
-    {
+    if ([friendsSelected containsObject:indexPath]) {
         [friendsSelected removeObject:indexPath];
     }
-    else
-    {
+    else {
         [friendsSelected addObject:indexPath];
     }
     

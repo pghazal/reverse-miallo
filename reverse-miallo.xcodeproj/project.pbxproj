@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E0ADF851C58D50C002449CF /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0ADF841C58D50C002449CF /* AddFriendViewController.m */; };
 		3E669E4A1C56350B0020D9AD /* FriendTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E669E491C56350B0020D9AD /* FriendTableCell.m */; };
 		3E669E4E1C5667950020D9AD /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E669E4D1C5667950020D9AD /* Friend.m */; };
 		3E70C39C1C56306900086FDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C39B1C56306900086FDC /* main.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E0ADF831C58D50C002449CF /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
+		3E0ADF841C58D50C002449CF /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
 		3E669E481C56350B0020D9AD /* FriendTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTableCell.h; sourceTree = "<group>"; };
 		3E669E491C56350B0020D9AD /* FriendTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTableCell.m; sourceTree = "<group>"; };
 		3E669E4C1C5667950020D9AD /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				3E70C3A11C56306900086FDC /* FriendsTableViewController.m */,
 				3E70C3A31C56306900086FDC /* SettingsViewController.h */,
 				3E70C3A41C56306900086FDC /* SettingsViewController.m */,
+				3E0ADF831C58D50C002449CF /* AddFriendViewController.h */,
+				3E0ADF841C58D50C002449CF /* AddFriendViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -311,6 +316,7 @@
 			files = (
 				3E70C3A51C56306900086FDC /* SettingsViewController.m in Sources */,
 				3E70C39F1C56306900086FDC /* AppDelegate.m in Sources */,
+				3E0ADF851C58D50C002449CF /* AddFriendViewController.m in Sources */,
 				3E70C3A21C56306900086FDC /* FriendsTableViewController.m in Sources */,
 				3E669E4E1C5667950020D9AD /* Friend.m in Sources */,
 				3E70C39C1C56306900086FDC /* main.m in Sources */,
