@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		3E0ADF851C58D50C002449CF /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0ADF841C58D50C002449CF /* AddFriendViewController.m */; };
+		3E0ADF881C591768002449CF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADF861C591768002449CF /* Bolts.framework */; };
+		3E0ADF891C591768002449CF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADF871C591768002449CF /* Parse.framework */; };
+		3E0ADF8C1C591904002449CF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0ADF8B1C591904002449CF /* LoginViewController.m */; };
+		3E0ADF8F1C591BF8002449CF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADF8E1C591BF8002449CF /* CoreLocation.framework */; };
+		3E0ADF911C591BFF002449CF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADF901C591BFF002449CF /* StoreKit.framework */; };
+		3E0ADF931C591C04002449CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADF921C591C04002449CF /* CoreGraphics.framework */; };
+		3E0ADF951C591C10002449CF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADF941C591C10002449CF /* libsqlite3.tbd */; };
+		3E0ADF971C591C17002449CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADF961C591C17002449CF /* QuartzCore.framework */; };
+		3E0ADF991C591C1D002449CF /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADF981C591C1C002449CF /* libz.1.1.3.tbd */; };
+		3E0ADF9B1C591C22002449CF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADF9A1C591C22002449CF /* Security.framework */; };
+		3E0ADF9D1C591C28002449CF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADF9C1C591C28002449CF /* AudioToolbox.framework */; };
+		3E0ADF9F1C591C2F002449CF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADF9E1C591C2F002449CF /* SystemConfiguration.framework */; };
+		3E0ADFA11C591C35002449CF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADFA01C591C35002449CF /* CFNetwork.framework */; };
+		3E0ADFA31C591C42002449CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADFA21C591C42002449CF /* UIKit.framework */; };
+		3E0ADFA51C591C4D002449CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADFA41C591C4D002449CF /* Foundation.framework */; };
+		3E0ADFA71C591C5D002449CF /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADFA61C591C5D002449CF /* libstdc++.6.tbd */; };
 		3E669E4A1C56350B0020D9AD /* FriendTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E669E491C56350B0020D9AD /* FriendTableCell.m */; };
 		3E669E4E1C5667950020D9AD /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E669E4D1C5667950020D9AD /* Friend.m */; };
 		3E70C39C1C56306900086FDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C39B1C56306900086FDC /* main.m */; };
@@ -41,6 +57,23 @@
 /* Begin PBXFileReference section */
 		3E0ADF831C58D50C002449CF /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
 		3E0ADF841C58D50C002449CF /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
+		3E0ADF861C591768002449CF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "reverse-miallo/Libraries/Bolts.framework"; sourceTree = "<group>"; };
+		3E0ADF871C591768002449CF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "reverse-miallo/Libraries/Parse.framework"; sourceTree = "<group>"; };
+		3E0ADF8A1C591904002449CF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3E0ADF8B1C591904002449CF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3E0ADF8E1C591BF8002449CF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3E0ADF901C591BFF002449CF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3E0ADF921C591C04002449CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E0ADF941C591C10002449CF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3E0ADF961C591C17002449CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3E0ADF981C591C1C002449CF /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		3E0ADF9A1C591C22002449CF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3E0ADF9C1C591C28002449CF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3E0ADF9E1C591C2F002449CF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3E0ADFA01C591C35002449CF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3E0ADFA21C591C42002449CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E0ADFA41C591C4D002449CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E0ADFA61C591C5D002449CF /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
 		3E669E481C56350B0020D9AD /* FriendTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTableCell.h; sourceTree = "<group>"; };
 		3E669E491C56350B0020D9AD /* FriendTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTableCell.m; sourceTree = "<group>"; };
 		3E669E4C1C5667950020D9AD /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
@@ -70,6 +103,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E0ADFA71C591C5D002449CF /* libstdc++.6.tbd in Frameworks */,
+				3E0ADFA51C591C4D002449CF /* Foundation.framework in Frameworks */,
+				3E0ADFA31C591C42002449CF /* UIKit.framework in Frameworks */,
+				3E0ADFA11C591C35002449CF /* CFNetwork.framework in Frameworks */,
+				3E0ADF9F1C591C2F002449CF /* SystemConfiguration.framework in Frameworks */,
+				3E0ADF9D1C591C28002449CF /* AudioToolbox.framework in Frameworks */,
+				3E0ADF9B1C591C22002449CF /* Security.framework in Frameworks */,
+				3E0ADF991C591C1D002449CF /* libz.1.1.3.tbd in Frameworks */,
+				3E0ADF971C591C17002449CF /* QuartzCore.framework in Frameworks */,
+				3E0ADF951C591C10002449CF /* libsqlite3.tbd in Frameworks */,
+				3E0ADF931C591C04002449CF /* CoreGraphics.framework in Frameworks */,
+				3E0ADF911C591BFF002449CF /* StoreKit.framework in Frameworks */,
+				3E0ADF8F1C591BF8002449CF /* CoreLocation.framework in Frameworks */,
+				3E0ADF881C591768002449CF /* Bolts.framework in Frameworks */,
+				3E0ADF891C591768002449CF /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +138,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E0ADF8D1C591BB6002449CF /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				3E0ADFA61C591C5D002449CF /* libstdc++.6.tbd */,
+				3E0ADFA41C591C4D002449CF /* Foundation.framework */,
+				3E0ADFA21C591C42002449CF /* UIKit.framework */,
+				3E0ADFA01C591C35002449CF /* CFNetwork.framework */,
+				3E0ADF9E1C591C2F002449CF /* SystemConfiguration.framework */,
+				3E0ADF9C1C591C28002449CF /* AudioToolbox.framework */,
+				3E0ADF9A1C591C22002449CF /* Security.framework */,
+				3E0ADF981C591C1C002449CF /* libz.1.1.3.tbd */,
+				3E0ADF961C591C17002449CF /* QuartzCore.framework */,
+				3E0ADF941C591C10002449CF /* libsqlite3.tbd */,
+				3E0ADF921C591C04002449CF /* CoreGraphics.framework */,
+				3E0ADF901C591BFF002449CF /* StoreKit.framework */,
+				3E0ADF8E1C591BF8002449CF /* CoreLocation.framework */,
+				3E0ADF861C591768002449CF /* Bolts.framework */,
+				3E0ADF871C591768002449CF /* Parse.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
 		3E669E3F1C5633540020D9AD /* TableCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +178,8 @@
 				3E70C3A41C56306900086FDC /* SettingsViewController.m */,
 				3E0ADF831C58D50C002449CF /* AddFriendViewController.h */,
 				3E0ADF841C58D50C002449CF /* AddFriendViewController.m */,
+				3E0ADF8A1C591904002449CF /* LoginViewController.h */,
+				3E0ADF8B1C591904002449CF /* LoginViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -124,6 +196,7 @@
 		3E70C38E1C56306900086FDC = {
 			isa = PBXGroup;
 			children = (
+				3E0ADF8D1C591BB6002449CF /* Framework */,
 				3E70C3991C56306900086FDC /* reverse-miallo */,
 				3E70C3B61C56306A00086FDC /* reverse-mialloTests */,
 				3E70C3C11C56306A00086FDC /* reverse-mialloUITests */,
@@ -314,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E0ADF8C1C591904002449CF /* LoginViewController.m in Sources */,
 				3E70C3A51C56306900086FDC /* SettingsViewController.m in Sources */,
 				3E70C39F1C56306900086FDC /* AppDelegate.m in Sources */,
 				3E0ADF851C58D50C002449CF /* AddFriendViewController.m in Sources */,
@@ -459,6 +533,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/reverse-miallo/Libraries",
+				);
 				INFOPLIST_FILE = "reverse-miallo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pierreghazal.reverse-miallo";
@@ -470,6 +548,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/reverse-miallo/Libraries",
+				);
 				INFOPLIST_FILE = "reverse-miallo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pierreghazal.reverse-miallo";

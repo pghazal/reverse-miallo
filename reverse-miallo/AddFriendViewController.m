@@ -64,7 +64,7 @@
 }
 
 - (void)filterContentForSearchText:(NSString*)searchText {
-    NSPredicate *resultPredicate = [NSPredicate predicateWithFormat:@"name contains[c] %@", searchText];
+    NSPredicate *resultPredicate = [NSPredicate predicateWithFormat:@"name beginswith[c] %@", searchText];
     searchResults = (NSArray*)[datas filteredArrayUsingPredicate:resultPredicate];
     
     [self.tableView reloadData];

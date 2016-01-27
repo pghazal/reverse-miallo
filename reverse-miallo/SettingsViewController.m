@@ -7,6 +7,7 @@
 //
 
 #import "SettingsViewController.h"
+#import <Parse/Parse.h>
 
 @interface SettingsViewController ()
 
@@ -22,6 +23,30 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    // Disconnect
+    if (indexPath.section == 1 && indexPath.row == 0) {
+        [self disconnect];
+    }
+}
+
+- (void)disconnect {
+    NSLog(@"Disconnect");
+    
+    PFUser *currentUser = [PFUser currentUser];
+    
+    if (currentUser) {
+        [PFUser logOut];
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    } else {
+        // Go to Login : should never happen
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }
+    
 }
 
 @end
