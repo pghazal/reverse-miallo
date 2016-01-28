@@ -7,6 +7,7 @@
 //
 
 #import "SettingsViewController.h"
+#import "LoginViewController.h"
 #import <Parse/Parse.h>
 
 @interface SettingsViewController ()
@@ -41,12 +42,11 @@
     
     if (currentUser) {
         [PFUser logOut];
-        [self.navigationController popToRootViewControllerAnimated:YES];
-    } else {
-        // Go to Login : should never happen
-        [self.navigationController popToRootViewControllerAnimated:YES];
     }
     
+    LoginViewController *lvc = [[LoginViewController alloc] init];
+    
+    [self.navigationController popToViewController:lvc animated:YES];
 }
 
 @end

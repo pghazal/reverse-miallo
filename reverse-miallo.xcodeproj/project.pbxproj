@@ -24,6 +24,8 @@
 		3E0ADFA31C591C42002449CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADFA21C591C42002449CF /* UIKit.framework */; };
 		3E0ADFA51C591C4D002449CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADFA41C591C4D002449CF /* Foundation.framework */; };
 		3E0ADFA71C591C5D002449CF /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0ADFA61C591C5D002449CF /* libstdc++.6.tbd */; };
+		3E0ADFAA1C5A51DD002449CF /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0ADFA91C5A51DD002449CF /* SignUpViewController.m */; };
+		3E0ADFAD1C5A6C22002449CF /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0ADFAC1C5A6C22002449CF /* SplashScreenViewController.m */; };
 		3E669E4A1C56350B0020D9AD /* FriendTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E669E491C56350B0020D9AD /* FriendTableCell.m */; };
 		3E669E4E1C5667950020D9AD /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E669E4D1C5667950020D9AD /* Friend.m */; };
 		3E70C39C1C56306900086FDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70C39B1C56306900086FDC /* main.m */; };
@@ -74,6 +76,10 @@
 		3E0ADFA21C591C42002449CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3E0ADFA41C591C4D002449CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3E0ADFA61C591C5D002449CF /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		3E0ADFA81C5A51DD002449CF /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		3E0ADFA91C5A51DD002449CF /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		3E0ADFAB1C5A6C22002449CF /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
+		3E0ADFAC1C5A6C22002449CF /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
 		3E669E481C56350B0020D9AD /* FriendTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTableCell.h; sourceTree = "<group>"; };
 		3E669E491C56350B0020D9AD /* FriendTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTableCell.m; sourceTree = "<group>"; };
 		3E669E4C1C5667950020D9AD /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
@@ -180,6 +186,10 @@
 				3E0ADF841C58D50C002449CF /* AddFriendViewController.m */,
 				3E0ADF8A1C591904002449CF /* LoginViewController.h */,
 				3E0ADF8B1C591904002449CF /* LoginViewController.m */,
+				3E0ADFA81C5A51DD002449CF /* SignUpViewController.h */,
+				3E0ADFA91C5A51DD002449CF /* SignUpViewController.m */,
+				3E0ADFAB1C5A6C22002449CF /* SplashScreenViewController.h */,
+				3E0ADFAC1C5A6C22002449CF /* SplashScreenViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -394,7 +404,9 @@
 				3E70C3A21C56306900086FDC /* FriendsTableViewController.m in Sources */,
 				3E669E4E1C5667950020D9AD /* Friend.m in Sources */,
 				3E70C39C1C56306900086FDC /* main.m in Sources */,
+				3E0ADFAD1C5A6C22002449CF /* SplashScreenViewController.m in Sources */,
 				3E669E4A1C56350B0020D9AD /* FriendTableCell.m in Sources */,
+				3E0ADFAA1C5A51DD002449CF /* SignUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

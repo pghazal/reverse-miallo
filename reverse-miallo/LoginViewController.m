@@ -25,25 +25,6 @@
     }
 }
 
-- (void)signUpWithUsername:(NSString*)username password:(NSString*)password email:(NSString*)email{
-    PFUser *user = [PFUser user];
-    user.username = username;
-    user.password = password;
-    user.email = email;
-    
-    // other fields can be set just like with PFObject
-    //user[@"phone"] = @"415-392-0202";
-    
-    [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-        if (!error) {
-            NSLog(@"User created");
-        } else {
-            NSString *errorString = [error userInfo][@"error"];
-            NSLog(@"%@", errorString);
-        }
-    }];
-}
-
 - (void)logInWithUsername:(NSString*)username password:(NSString*)password {
     [PFUser logInWithUsernameInBackground:username password:password
                                     block:^(PFUser *user, NSError *error) {
@@ -58,22 +39,6 @@
                                     }];
 }
 
--(IBAction)signUp:(id)sender {
-    NSLog(@"Sign Up");
-    
-    NSString* username = [self.usernameField.text stringByTrimmingCharactersInSet:
-                          [NSCharacterSet whitespaceAndNewlineCharacterSet]];
-    NSString* password = [self.passwordField.text stringByTrimmingCharactersInSet:
-                          [NSCharacterSet whitespaceAndNewlineCharacterSet]];
-    
-    if (username.length > 0 && password.length > 0) {
-        [self signUpWithUsername:username password:password email:nil];
-    } else {
-        
-    }
-    
-}
-
 -(IBAction)logIn:(id)sender {
     NSLog(@"Log In");
     
@@ -85,15 +50,17 @@
     if (username.length > 0 && password.length > 0) {
         [self logInWithUsername:username password:password];
     } else {
-        
+        UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@"User wrong"
+                                                      message:@"Fill up again the user info"
+                                                     delegate:nil
+                                            cancelButtonTitle:@"OK"
+                                            otherButtonTitles:@"Cancel", nil];
+        [alert show];
     }
 }
 
 - (void) segueLoginToFriends {
-    FriendsTableViewController* viewController = [[FriendsTableViewController alloc] init];
-    
-    [self.navigationController pushViewController:viewController animated:YES];
+    [self performSegueWithIdentifier:@"LoginToFriends" sender:nil];
 }
-
 
 @end
